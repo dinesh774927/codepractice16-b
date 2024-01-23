@@ -1,0 +1,121 @@
+.container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 25px;
+  font-family: 'Roboto';
+}
+.box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 25px;
+}
+.input-contianer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+label {
+  color: #b5b7c4;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.input {
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.button {
+  background-color: #8b5cf6;
+  padding: 8px;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.hr {
+  border: 1.5px solid #b5b7c4;
+  margin-top: 20px;
+}
+.appointment {
+  color: #171f46;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.starred {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #9897f0;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 18px;
+}
+
+.starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unorder {
+  padding: 0px;
+  list-style-type: none;
+}
+.img {
+  display: none;
+}
+
+.starred1 {
+  background-color: #9897f0;
+  border: 0px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 18px;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img {
+    display: block;
+    height: 250px;
+  }
+  .box {
+    padding: 50px;
+  }
+  .unorder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .form {
+    width: 350px;
+    margin-right: 20px;
+  }
+}

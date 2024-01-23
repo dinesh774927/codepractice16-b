@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+.items-container {
+  border: 1px solid #9897f0;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 18px;
+  color: #171f46;
+  font-weight: 500;
+  margin: 0px;
+}
+.date {
+  font-size: 13px;
+  color: #87888f;
+}
+
+.button-star {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .items-container {
+    margin-right: 20px;
+  }
+}
